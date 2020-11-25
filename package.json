@@ -1,0 +1,17 @@
+{
+  "name": "docker-projects",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/akbaruddin/docker-projects.git",
+  "author": "Akbar Uddin <akbaruddin@live.in>",
+  "license": "MIT",
+  "scripts": {
+    "start": "nodemon ./app/index.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  }
+}
